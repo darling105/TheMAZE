@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class GameDone : MonoBehaviour
 {
     public void GameHasDone() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Thank");
     }
 }
