@@ -10,7 +10,9 @@ public class GameManager : MonoBehaviour {
     public void Complete() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
+    public void GameOver() { 
+    
+    }
     public void EndGame() {
         Debug.Log("GO");
         Invoke("Restart", restartDelay);
