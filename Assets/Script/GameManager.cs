@@ -7,10 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour {
 
     public float restartDelay = 2f;
-
-    public GameObject completeUI;
     public void Complete() {
-        completeUI.SetActive(true);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
